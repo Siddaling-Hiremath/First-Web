@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    background-color: #D88C9A;
+    background:url("pexels-christian-heitz-285904-842711.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.out-box{
+    
+
+    width: 370px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    border-radius: 10px;
+    padding:30px 40px;
+}
+
+.text{
+    width:100%;
+    height:50px;
+    margin:30px 0;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text input{
+    width: 100%;
+    height:100%;
+    border: transparent;
+    border:none;
+    outline:none;
+    border:2px solid rgba(255 ,255 ,255, .5);
+    border-radius: 45px;
+    font-size: 16%;
+    color:#7fa442;
+    padding:20px 45px 20px 20px;
+
+
+}
+#f1:active{
+    filter: drop-shadow(0 0 5px #fff);
+
+}
+#f2:active{
+    filter: drop-shadow(0 0 5px #fff);
+
+}
+
+.btn button{
+    margin-left: 70px;
+    padding: 3%;
+    color: #fb5c00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #a29501;
+    border-radius: 15px;
+
+}
+  button:hover{
+    border: 3px solid #99C1B9 ;
+    filter: none;
+    color:#7fa442;
+    cursor:pointer;
+}
+button:active{
+    COLOR:BLACK ;
+
+}
+
+.out-box:hover{
+    filter: drop-shadow(0 0 1px #fff);
+}
